@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 8px rgba(181, 215, 231, 0.782);
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(232, 234, 235, 0.782);
+    margin-top: 60px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.logo h1{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu_area ul{
+    display: flex;
+    margin-right: 50px;
+}
+.menu_area a{
+    height: 50px;
+    line-height: 50px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.menu_area a:hover{
+    border-bottom: #7311F6 2px solid;
+    
+}
+/* ---end of menu______ */
+.profile{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+.content{
+    margin-left: 50px;
+}
+.content h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content span{
+    color: #7311F6;
+}
+.content button{
+    height: 45px;
+    width: 150px;
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #7311F6;
+}
+.content button a{
+    color: white;
+}
+.images img{
+    height: 500px;
+    margin-top: -66px;
+}
+/* -----end of profile----- */
+.social_icon{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: -113px;
+    left: 40px;
+    
+}
+.icon i{
+    font-size: 20px;
+    color:#46474a ;
+    margin: 0px 10px;
+}
+.icon i:hover{
+    color:#7311F6 ;
+}
